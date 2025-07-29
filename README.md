@@ -58,9 +58,6 @@ Commands:
 1. The chromosome ID of the genome cannot contain special characters such as `":", "-", ","`, etc., and no other characters except numbers, letters and "_".
 2. In the gff annotation file, it is best to only have `gene, mRNA, exon, cds, and utr` information. And gene must contain the `ID` field, and others must contain the `Parent` field.
 3. The bed file of gene must be a standard 6-column bed file. `<chrID> <start> <end> <geneID> <score/0> <chain>`.
-4. output
-
-
 
 ## Output
 ### cns calling
