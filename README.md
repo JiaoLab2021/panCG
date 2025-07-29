@@ -31,6 +31,29 @@ pip install panCG
 panCG -h
 ```
 
+## usage
+``` shell
+usage: panCG [-h] [--version]  ...
+
+    an integrative pipeline for family-level super-pangenome analysis across coding and noncoding sequences.
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --version      show program's version number and exit
+
+Commands:
+
+    callCns      Identification of CNS
+    pangene      build gene index
+    pancns       build CNS index
+    GenePavAsso  Associating gene-PAVs with phenotypes between species
+    GLSS         Identification of Gene lineage-specific Synteny networks
+    CLSS         Identification of CNS lineage-specific Synteny networks
+    CnsGeneLink  According to the relative position relationship between CNS and gene and the maximum number of species supported by CNS index and gene index, CNS index and gene index are linked.
+    CnsSyntenyNet
+                 Used to construct SyntenyNet for filtered pan-CNS
+```
+
 ## Input file format requirements
 1. The chromosome ID of the genome cannot contain special characters such as `":", "-", ","`, etc., and no other characters except numbers, letters and "_".
 2. In the gff annotation file, it is best to only have `gene, mRNA, exon, cds, and utr` information. And gene must contain the `ID` field, and others must contain the `Parent` field.
