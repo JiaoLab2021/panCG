@@ -1,0 +1,31 @@
+species:
+  Aethionema_arabicum:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/02-Aethionema_arabicum/Aethionema_arabicum.longest.cds.gff"
+  Arabidopsis_lyrata:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/03-Arabidopsis_lyrata/Arabidopsis_lyrata.longest.cds.gff"
+  Arabidopsis_thaliana:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/01-Arabidopsis_thaliana/Arabidopsis_thaliana.longest.cds.gff"
+  Arabis_alpina:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/05-Arabis_alpina/Arabis_alpina.longest.cds.gff"
+  Brassica_rapa:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/06-Brassica_rapa/Brassica_rapa.longest.cds.gff"
+  Camelina_neglecta:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/08-Camelina_neglecta/Camelina_neglecta.longest.cds.gff"
+  Cardamine_enshiensis:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/09-Cardamine_enshiensis/Cardamine_enshiensis.longest.cds.gff"
+  Conringia_planisiliqua:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/11-Conringia_planisiliqua/Conringia_planisiliqua.longest.cds.gff"
+  Erysimum_cheiranthoides:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/12-Erysimum_cheiranthoides/Erysimum_cheiranthoides.longest.cds.gff"
+  Euclidium_syriacum:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/13-Euclidium_syriacum/Euclidium_syriacum.longest.cds.gff"
+  Heliophila_variabilis:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/14-Heliophila_variabilis/Heliophila_variabilis.longest.cds.gff"
+  Isatis_indigotica:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/16-Isatis_indigotica/Isatis_indigotica.longest.cds.gff"
+  Megadenia_pygmaea:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/04-Megadenia_pygmaea/Megadenia_pygmaea.longest.cds.gff"
+  Raphanus_sativus:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/07-Raphanus_sativus/Raphanus_sativus.longest.cds.gff"
+  Thlaspi_arvense:
+    longest_pep_gff: "/home/ltan/datas/03-Brassicaceae/01-genomes/15-Thlaspi_arvense/Thlaspi_arvense.longest.cds.gff"

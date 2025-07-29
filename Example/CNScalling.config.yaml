@@ -1,0 +1,40 @@
+species:
+  C_sinensis:
+      GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.genome.fasta
+      gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.gff
+      mafFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.7ways.maf
+      chrList: "Chr1"  # If there are multiple chrIDs, use "," split, such as "chr1,chr2,chr3"
+  C_limon:
+      GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.genome.fasta
+      gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.gff
+      mafFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.7ways.maf
+      chrList: "chr1"
+  ponkan:
+      GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.genome.fasta
+      gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.gff
+      mafFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.7ways.maf
+      chrList: "chr1"
+  F_hindsii:
+      GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.genome.fasta
+      gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.gff
+      mafFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.7ways.maf
+      chrList: "chr1"
+  C_australasica:
+      GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.genome.fasta
+      gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.gff
+      mafFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.7ways.maf
+      chrList: "chr1"
+  C_glauca:
+      GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.genome.fasta
+      gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.gff
+      mafFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.7ways.maf
+      chrList: "chr1"
+  A_buxifolia:
+      GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.genome.fasta
+      gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.gff
+      mafFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.7ways.maf
+      chrList: "chr1"
+
+callCNS:
+  speciesList: "C_sinensis,C_limon,ponkan,F_hindsii,C_australasica,C_glauca,A_buxifolia"
+  tree: "((((C_sinensis,C_limon),ponkan),((C_australasica,C_glauca),F_hindsii)),A_buxifolia);"

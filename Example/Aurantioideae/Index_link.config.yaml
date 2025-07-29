@@ -1,0 +1,47 @@
+
+species:
+  Aegle_marmelos:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/14-Aegle_marmelos/Aegle_marmelos.gene.model.longest.cds.gff'
+  Atalantia_buxifolia:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/15-Atalantia_buxifolia/Atalantia_buxifolia.gene.model.longest.cds.gff'
+  Citropsis_articulata:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/12-Citropsis_articulata/Citropsis_articulata.gene.model.longest.cds.gff'
+  Citrus_australasica:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/22-Citrus_australasica_Rainbow/Citrus_australasica.gene.model.longest.cds.rename.gff'
+  Citrus_australis:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/19-Citrus_australis_HR/Citrus_australis.gene.model.longest.cds.rename.gff'
+  Citrus_glauca:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/20-Citrus_glauca_CRC3463_genome_v1/Citrus_glauca.gene.model.longest.cds.gff'
+  Citrus_hongheensis:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/04-Citrus_hongheensis/Citrus_hongheensis.gene.model.longest.cds.gff'
+  Citrus_ichangensis:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/05-Citrus_ichangensis/Citrus_ichangensis.gene.model.longest.cds.gff'
+  Citrus_inodora:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/21-Citrus_inodora_CRC3784_v1.0/Citrus_inodora.gene.model.longest.cds.gff'
+  Citrus_limon:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/17-Citrus_limon/Citrus_limon.gene.model.longest.cds.rename.gff'
+  Citrus_linwuensis:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/06-Citrus_linwuensis/Citrus_linwuensis.gene.model.longest.cds.gff'
+  Citrus_mangshanensis:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/07-Citrus_mangshanensis/Citrus_mangshanensis.gene.model.longest.cds.gff'
+  Citrus_maxima:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/02-Citrus_maxima_GBY/02-hap2/GBY.hap2.genome.v1.longest.cds.gff'
+  Citrus_medica:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/08-Citrus_medica_RL-01/Citrus_medica.gene.model.longest.cds.gff'
+  Citrus_reticulata:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/09-Citrus_reticulata_Mangshan/Citrus_reticulata.gene.model.longest.cds.gff'
+  Citrus_sinensis:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/01-Citrus_sinensis_T2T/Citrus_sinensis.P.gene.model.longest.cds.gff'
+  Clausena_lansium:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/16-Clausena_lansium/Clausena_lansium.gene.model.longest.cds.gff'
+  Fortunella_hindsii:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/11-Fortunella_hindsii_v2.0/Fortunella_hindsii.gene.model.longest.cds.gff'
+  Luvunga_scandens:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/13-Luvunga_scandens/Luvunga_scandens.gene.model.longest.cds.gff'
+  Murraya_paniculata:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/18-Murraya_paniculata_2023_BMC/Murraya_paniculata.gene.model.longest.cds.rename.gff'
+  Poncirus_trifoliata:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/10-Poncirus_trifoliata/Poncirus_trifoliata.gene.model.longest.cds.rename.gff'
+  Ponkan:
+    longest_pep_gff: '/home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/03-Citrus_reticulata_Ponkan/PGv2.longest.cds.gff'
+

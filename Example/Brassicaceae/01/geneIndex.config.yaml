@@ -1,0 +1,51 @@
+species_tree:
+  "(Aethionema_arabicum:0.0946435,(Euclidium_syriacum:0.0980875,(Heliophila_variabilis:0.120049,((Megadenia_pygmaea:0.0736025,(Cardamine_enshiensis:0.0689684,((Camelina_neglecta:0.065804,(Arabidopsis_thaliana:0.0386163,Arabidopsis_lyrata:0.0327071)0.780923:0.0190795)0.387182:0.0116859,Erysimum_cheiranthoides:0.0632252)0.527097:0.0154889)0.437119:0.0152021)0.147739:0.00975436,(Arabis_alpina:0.0916533,(Thlaspi_arvense:0.101406,((Raphanus_sativus:0.0662473,Brassica_rapa:0.0563626)0.880566:0.0436563,(Conringia_planisiliqua:0.0351518,Isatis_indigotica:0.0488092)0.797031:0.0252145)0.483834:0.0175594)0.336555:0.0146453)0.0936601:0.00879886)0.0842251:0.0111674)0.2055:0.0169258)1:0.0946435);"
+
+species:
+  Aethionema_arabicum:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/02-Aethionema_arabicum/Aethionema_arabicum.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/02-Aethionema_arabicum/Aethionema_arabicum.longest.pep.fa
+  Arabidopsis_lyrata:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/03-Arabidopsis_lyrata/Arabidopsis_lyrata.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/03-Arabidopsis_lyrata/Arabidopsis_lyrata.longest.pep.fa
+  Arabidopsis_thaliana:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/01-Arabidopsis_thaliana/Arabidopsis_thaliana.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/01-Arabidopsis_thaliana/Arabidopsis_thaliana.longest.pep.fa
+  Arabis_alpina:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/05-Arabis_alpina/Arabis_alpina.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/05-Arabis_alpina/Arabis_alpina.longest.pep.fa
+  Brassica_rapa:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/06-Brassica_rapa/Brassica_rapa.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/06-Brassica_rapa/Brassica_rapa.longest.pep.fa
+  Camelina_neglecta:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/08-Camelina_neglecta/Camelina_neglecta.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/08-Camelina_neglecta/Camelina_neglecta.longest.pep.fa
+  Cardamine_enshiensis:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/09-Cardamine_enshiensis/Cardamine_enshiensis.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/09-Cardamine_enshiensis/Cardamine_enshiensis.longest.pep.fa
+  Conringia_planisiliqua:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/11-Conringia_planisiliqua/Conringia_planisiliqua.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/11-Conringia_planisiliqua/Conringia_planisiliqua.longest.pep.fa
+  Erysimum_cheiranthoides:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/12-Erysimum_cheiranthoides/Erysimum_cheiranthoides.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/12-Erysimum_cheiranthoides/Erysimum_cheiranthoides.longest.pep.fa
+  Euclidium_syriacum:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/13-Euclidium_syriacum/Euclidium_syriacum.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/13-Euclidium_syriacum/Euclidium_syriacum.longest.pep.fa
+  Heliophila_variabilis:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/14-Heliophila_variabilis/Heliophila_variabilis.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/14-Heliophila_variabilis/Heliophila_variabilis.longest.pep.fa
+  Isatis_indigotica:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/16-Isatis_indigotica/Isatis_indigotica.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/16-Isatis_indigotica/Isatis_indigotica.longest.pep.fa
+  Megadenia_pygmaea:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/04-Megadenia_pygmaea/Megadenia_pygmaea.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/04-Megadenia_pygmaea/Megadenia_pygmaea.longest.pep.fa
+  Raphanus_sativus:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/07-Raphanus_sativus/Raphanus_sativus.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/07-Raphanus_sativus/Raphanus_sativus.longest.pep.fa
+  Thlaspi_arvense:
+    longest_pep_bed: /home/ltan/datas/03-Brassicaceae/01-genomes/15-Thlaspi_arvense/Thlaspi_arvense.longest.pep.sort.bed
+    longest_pep_fasta: /home/ltan/datas/03-Brassicaceae/01-genomes/15-Thlaspi_arvense/Thlaspi_arvense.longest.pep.fa
+  
+

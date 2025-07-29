@@ -1,0 +1,120 @@
+species_tree:
+  "(Clausena_lansium:0.0202334419,(Murraya_paniculata:0.0332810249,(Luvunga_scandens:0.0365512848,(Aegle_marmelos:0.0468464535,(Citropsis_articulata:0.0256471654,(Atalantia_buxifolia:0.0213950932,(Poncirus_trifoliata:0.0116114068,((Fortunella_hindsii:0.0110811317,(Citrus_glauca:0.0112106319,(Citrus_inodora:0.0056546718,(Citrus_australis:0.0101021961,Citrus_australasica:0.0077983301)100:0.0018417916)100:0.0006659628)100:0.0038760058)100:0.0008920592,(((Citrus_mangshanensis:0.0093206321,Citrus_ichangensis:0.0070480372)100:0.0009386498,(Citrus_linwuensis:0.0081333907,(Ponkan:0.0038692729,Citrus_reticulata:0.0047520307)100:0.0038528879)100:0.0010824874)100:0.0007826599,((Citrus_medica:0.0035910357,Citrus_limon:0.0048158120)100:0.0079986579,(Citrus_hongheensis:0.0061575484,(Citrus_sinensis:0.0054545253,Citrus_maxima:0.0035853625)100:0.0015707594)100:0.0018819437)100:0.0011310083)82:0.0004684958)100:0.0022234566)100:0.0083388538)100:0.0023969279)100:0.0097597028)100:0.0020091316)100:0.0057404584):0.0202334419);"
+  
+HalFile: 
+  "/home/ltan/datas/07-Aurantioideae_CNS/02-Multigenome_Alignment/01-cactus_20240909/Aurantioideae_22-way.hal"
+
+species:
+  Aegle_marmelos:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Aegle_marmelos/03-phastCons/Wig/CEsDir/Aegle_marmelos.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/14-Aegle_marmelos/Aegle_marmelos.RagTag.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Aegle_marmelos/03-phastCons/Wig/Aegle_marmelos.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/14-Aegle_marmelos/Aegle_marmelos.ragtag.gff
+  Atalantia_buxifolia:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Atalantia_buxifolia/03-phastCons/Wig/CEsDir/Atalantia_buxifolia.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/15-Atalantia_buxifolia/Atalantia_buxifolia.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Atalantia_buxifolia/03-phastCons/Wig/Atalantia_buxifolia.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/15-Atalantia_buxifolia/Atalantia_buxifolia.gff3
+  Citropsis_articulata:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citropsis_articulata/03-phastCons/Wig/CEsDir/Citropsis_articulata.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/12-Citropsis_articulata/Citropsis_articulata.RagTag.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citropsis_articulata/03-phastCons/Wig/Citropsis_articulata.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/12-Citropsis_articulata/Citropsis_articulata.ragtag.gff
+  Citrus_australasica:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_australasica/03-phastCons/Wig/CEsDir/Citrus_australasica.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/22-Citrus_australasica_Rainbow/Citrus_australasica.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_australasica/03-phastCons/Wig/Citrus_australasica.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/22-Citrus_australasica_Rainbow/Citrus_australasica.gene.model.gff3
+  Citrus_australis:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_australis/03-phastCons/Wig/CEsDir/Citrus_australis.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/19-Citrus_australis_HR/Citrus_australis.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_australis/03-phastCons/Wig/Citrus_australis.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/19-Citrus_australis_HR/Citrus_australis.gene.model.gff3
+  Citrus_glauca:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_glauca/03-phastCons/Wig/CEsDir/Citrus_glauca.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/20-Citrus_glauca_CRC3463_genome_v1/Citrus_glauca.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_glauca/03-phastCons/Wig/Citrus_glauca.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/20-Citrus_glauca_CRC3463_genome_v1/Citrus_glauca.gene.model.gff3
+  Citrus_hongheensis:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_hongheensis/03-phastCons/Wig/CEsDir/Citrus_hongheensis.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/04-Citrus_hongheensis/Citrus_hongheensis.RagTag.genome.softmask.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_hongheensis/03-phastCons/Wig/Citrus_hongheensis.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/04-Citrus_hongheensis/Citrus_hongheensis.ragtag.gene.model.gff3
+  Citrus_ichangensis:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_ichangensis/03-phastCons/Wig/CEsDir/Citrus_ichangensis.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/05-Citrus_ichangensis/Citrus_ichangensis.RagTag.genome.softmask.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_ichangensis/03-phastCons/Wig/Citrus_ichangensis.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/05-Citrus_ichangensis/Citrus_ichangensis.ragtag.gene.model.gff3
+  Citrus_inodora:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_inodora/03-phastCons/Wig/CEsDir/Citrus_inodora.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/21-Citrus_inodora_CRC3784_v1.0/Citrus_inodora.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_inodora/03-phastCons/Wig/Citrus_inodora.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/21-Citrus_inodora_CRC3784_v1.0/Citrus_inodora.gene.model.gff3
+  Citrus_limon:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_limon/03-phastCons/Wig/CEsDir/Citrus_limon.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/17-Citrus_limon/Citrus_limon.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_limon/03-phastCons/Wig/Citrus_limon.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/17-Citrus_limon/Citrus_limon.gene.model.gff3
+  Citrus_linwuensis:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_linwuensis/03-phastCons/Wig/CEsDir/Citrus_linwuensis.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/06-Citrus_linwuensis/Citrus_linwuensis.RagTag.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_linwuensis/03-phastCons/Wig/Citrus_linwuensis.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/06-Citrus_linwuensis/Citrus_linwuensis.ragtag.gff
+  Citrus_mangshanensis:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_mangshanensis/03-phastCons/Wig/CEsDir/Citrus_mangshanensis.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/07-Citrus_mangshanensis/Citrus_mangshanensis.RagTag.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_mangshanensis/03-phastCons/Wig/Citrus_mangshanensis.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/07-Citrus_mangshanensis/Citrus_mangshanensis.ragtag.gff
+  Citrus_maxima:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_maxima/03-phastCons/Wig/CEsDir/Citrus_maxima.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/02-Citrus_maxima_GBY/02-hap2/GBYhap2.genome.softmask.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_maxima/03-phastCons/Wig/Citrus_maxima.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/02-Citrus_maxima_GBY/02-hap2/GBY.hap2.v1.gff3
+  Citrus_medica:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_medica/03-phastCons/Wig/CEsDir/Citrus_medica.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/08-Citrus_medica_RL-01/Citrus_medica.RagTag.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_medica/03-phastCons/Wig/Citrus_medica.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/08-Citrus_medica_RL-01/Citrus_medica.ragtag.gff
+  Citrus_reticulata:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_reticulata/03-phastCons/Wig/CEsDir/Citrus_reticulata.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/09-Citrus_reticulata_Mangshan/Citrus_reticulata.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_reticulata/03-phastCons/Wig/Citrus_reticulata.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/09-Citrus_reticulata_Mangshan/Citrus_reticulata.gff3
+  Citrus_sinensis:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_sinensis/03-phastCons/Wig/CEsDir/Citrus_sinensis.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/01-Citrus_sinensis_T2T/Citrus_sinensis.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Citrus_sinensis/03-phastCons/Wig/Citrus_sinensis.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/01-Citrus_sinensis_T2T/C_sinensis.P.T2T.gene.model.gff3
+  Clausena_lansium:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Clausena_lansium/03-phastCons/Wig/CEsDir/Clausena_lansium.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/16-Clausena_lansium/Clausena_lansium.RagTag.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Clausena_lansium/03-phastCons/Wig/Clausena_lansium.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/16-Clausena_lansium/Clausena_lansium.ragtag.gff
+  Fortunella_hindsii:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Fortunella_hindsii/03-phastCons/Wig/CEsDir/Fortunella_hindsii.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/11-Fortunella_hindsii_v2.0/Fortunella_hindsii.softmask.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Fortunella_hindsii/03-phastCons/Wig/Fortunella_hindsii.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/11-Fortunella_hindsii_v2.0/Fortunella_hindsii.rename.gff3
+  Luvunga_scandens:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Luvunga_scandens/03-phastCons/Wig/CEsDir/Luvunga_scandens.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/13-Luvunga_scandens/Luvunga_scandens.RagTag.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Luvunga_scandens/03-phastCons/Wig/Luvunga_scandens.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/13-Luvunga_scandens/Luvunga_scandens.ragtag.gff
+  Murraya_paniculata:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Murraya_paniculata/03-phastCons/Wig/CEsDir/Murraya_paniculata.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/18-Murraya_paniculata_2023_BMC/Murraya_paniculata.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Murraya_paniculata/03-phastCons/Wig/Murraya_paniculata.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/18-Murraya_paniculata_2023_BMC/Murraya_paniculata.gene.model.gff3
+  Poncirus_trifoliata:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Poncirus_trifoliata/03-phastCons/Wig/CEsDir/Poncirus_trifoliata.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/10-Poncirus_trifoliata/Poncirus_trifoliata.genome.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Poncirus_trifoliata/03-phastCons/Wig/Poncirus_trifoliata.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/10-Poncirus_trifoliata/Poncirus_trifoliata.gff3
+  Ponkan:
+    CNS_bed: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Ponkan/03-phastCons/Wig/CEsDir/Ponkan.CNSs.bed
+    GenomeFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/03-Citrus_reticulata_Ponkan/PG.genome.softmask.fa
+    bwFile: /home/ltan/datas/07-Aurantioideae_CNS/03-CNS_identification/Ponkan/03-phastCons/Wig/Ponkan.all.bw
+    gffFile: /home/ltan/datas/01_Aurantioideae/02_Genomes_datas/00_Genomes_Raw/03-Citrus_reticulata_Ponkan/PG.gene.model.v2.gff3
+
+
+

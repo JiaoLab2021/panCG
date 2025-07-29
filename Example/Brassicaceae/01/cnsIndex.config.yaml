@@ -1,0 +1,90 @@
+# File Format
+## ChrID name of the genome file: ">ID[space][description]",If there is description information, there must be a space between ChrID and description. The ":" character cannot exist
+## The ID cannot contain brackets
+## The gff file must be in a standard format and contain ID, name, and Parent information.
+
+# species
+species_tree:
+  "(Aethionema_arabicum:0.0946435,(Euclidium_syriacum:0.0980875,(Heliophila_variabilis:0.120049,((Megadenia_pygmaea:0.0736025,(Cardamine_enshiensis:0.0689684,((Camelina_neglecta:0.065804,(Arabidopsis_thaliana:0.0386163,Arabidopsis_lyrata:0.0327071)0.780923:0.0190795)0.387182:0.0116859,Erysimum_cheiranthoides:0.0632252)0.527097:0.0154889)0.437119:0.0152021)0.147739:0.00975436,(Arabis_alpina:0.0916533,(Thlaspi_arvense:0.101406,((Raphanus_sativus:0.0662473,Brassica_rapa:0.0563626)0.880566:0.0436563,(Conringia_planisiliqua:0.0351518,Isatis_indigotica:0.0488092)0.797031:0.0252145)0.483834:0.0175594)0.336555:0.0146453)0.0936601:0.00879886)0.0842251:0.0111674)0.2055:0.0169258)1:0.0946435);"
+
+HalFile:
+  "/home/ltan/datas/03-Brassicaceae/05-Multigenome_Alignment/Brassicaceae_15way.hal"
+
+species:
+  Aethionema_arabicum:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Aethionema_arabicum.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Aethionema_arabicum.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Aethionema_arabicum/03-phastCons/Wig/CEsDir/Aethionema_arabicum.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Aethionema_arabicum/03-phastCons/Wig/Aethionema_arabicum.all.bw
+  Arabidopsis_lyrata:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Arabidopsis_lyrata.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Arabidopsis_lyrata.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Arabidopsis_lyrata/03-phastCons/Wig/CEsDir/Arabidopsis_lyrata.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Arabidopsis_lyrata/03-phastCons/Wig/Arabidopsis_lyrata.all.bw
+  Arabidopsis_thaliana:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Arabidopsis_thaliana.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Arabidopsis_thaliana.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Arabidopsis_thaliana/03-phastCons/Wig/CEsDir/Arabidopsis_thaliana.CNSs.v2.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Arabidopsis_thaliana/03-phastCons/Wig/Arabidopsis_thaliana.all.bw
+  Arabis_alpina:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Arabis_alpina.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Arabis_alpina.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Arabis_alpina/03-phastCons/Wig/CEsDir/Arabis_alpina.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Arabis_alpina/03-phastCons/Wig/Arabis_alpina.all.bw
+  Brassica_rapa:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Brassica_rapa.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Brassica_rapa.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Brassica_rapa/03-phastCons/Wig/CEsDir/Brassica_rapa.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Brassica_rapa/03-phastCons/Wig/Brassica_rapa.all.bw
+  Camelina_neglecta:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Camelina_neglecta.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Camelina_neglecta.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Camelina_neglecta/03-phastCons/Wig/CEsDir/Camelina_neglecta.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Camelina_neglecta/03-phastCons/Wig/Camelina_neglecta.all.bw
+  Cardamine_enshiensis:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Cardamine_enshiensis.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Cardamine_enshiensis.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Cardamine_enshiensis/03-phastCons/Wig/CEsDir/Cardamine_enshiensis.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Cardamine_enshiensis/03-phastCons/Wig/Cardamine_enshiensis.all.bw
+  Conringia_planisiliqua:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Conringia_planisiliqua.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Conringia_planisiliqua.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Conringia_planisiliqua/03-phastCons/Wig/CEsDir/Conringia_planisiliqua.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Conringia_planisiliqua/03-phastCons/Wig/Conringia_planisiliqua.all.bw
+  Erysimum_cheiranthoides:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Erysimum_cheiranthoides.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Erysimum_cheiranthoides.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Erysimum_cheiranthoides/03-phastCons/Wig/CEsDir/Erysimum_cheiranthoides.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Erysimum_cheiranthoides/03-phastCons/Wig/Erysimum_cheiranthoides.all.bw
+  Euclidium_syriacum:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Euclidium_syriacum.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Euclidium_syriacum.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Euclidium_syriacum/03-phastCons/Wig/CEsDir/Euclidium_syriacum.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Euclidium_syriacum/03-phastCons/Wig/Euclidium_syriacum.all.bw
+  Heliophila_variabilis:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Heliophila_variabilis.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Heliophila_variabilis.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Heliophila_variabilis/03-phastCons/Wig/CEsDir/Heliophila_variabilis.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Heliophila_variabilis/03-phastCons/Wig/Heliophila_variabilis.all.bw
+  Isatis_indigotica:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Isatis_indigotica.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Isatis_indigotica.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Isatis_indigotica/03-phastCons/Wig/CEsDir/Isatis_indigotica.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Isatis_indigotica/03-phastCons/Wig/Isatis_indigotica.all.bw
+  Megadenia_pygmaea:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Megadenia_pygmaea.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Megadenia_pygmaea.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Megadenia_pygmaea/03-phastCons/Wig/CEsDir/Megadenia_pygmaea.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Megadenia_pygmaea/03-phastCons/Wig/Megadenia_pygmaea.all.bw
+  Raphanus_sativus:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Raphanus_sativus.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Raphanus_sativus.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Raphanus_sativus/03-phastCons/Wig/CEsDir/Raphanus_sativus.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Raphanus_sativus/03-phastCons/Wig/Raphanus_sativus.all.bw
+  Thlaspi_arvense:
+    GenomeFile: /home/ltan/datas/03-Brassicaceae/04-soft_genomes/Thlaspi_arvense.sm.fa
+    gffFile: /home/ltan/datas/03-Brassicaceae/06-gff/Thlaspi_arvense.gene.gff
+    CNS_bed: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Thlaspi_arvense/03-phastCons/Wig/CEsDir/Thlaspi_arvense.CNSs.bed
+    bwFile: /home/ltan/datas/03-Brassicaceae/07-CNS_identification/Thlaspi_arvense/03-phastCons/Wig/Thlaspi_arvense.all.bw
+
+

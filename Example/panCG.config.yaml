@@ -1,0 +1,64 @@
+
+species_tree:
+  "(A_buxifolia:0.02787045,((C_australasica:0.0361416,C_glauca:0.0338818)0.388938:0.0152986,((ponkan:0.0125193,F_hindsii:0.0258392)0.187884:0.0133223,(C_sinensis:0.0172991,C_limon:0.0399986)0.19403:0.0104422)0.117647:0.00838269):0.02787045);"
+
+HalFile:
+  "/home/ltan/Tmp/01-PanCNSGene_test_data/example_data/Citrus.7ways.test_data.hal"
+
+species:
+#  A_buxifolia:  # 必须与species_tree的物种名一致
+#    CNS_bed: # CNS的bed文件
+#    GenomeFile: # 基因组文件
+#    bwFile: # phastCons保守得分
+#    gffFile: # 全部的gene注释文件
+#    longest_pep_bed: # 最长转录本的bed文件
+#    longest_pep_fasta: # 最长转录本的蛋白质序列
+  A_buxifolia:
+    CNS_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.CNSs.bed
+    GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.genome.fasta
+    bwFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.all.bw
+    gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.gff
+    longest_pep_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.longest.bed
+    longest_pep_fasta: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/A_buxifolia/A_buxifolia.longest.pep.fasta
+  C_australasica:
+    CNS_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.CNSs.bed
+    GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.genome.fasta
+    bwFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.all.bw
+    gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.gff
+    longest_pep_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.longest.bed
+    longest_pep_fasta: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_australasica/C_australasica.longest.pep.fasta
+  C_glauca:
+    CNS_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.CNSs.bed
+    GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.genome.fasta
+    bwFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.all.bw
+    gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.gff
+    longest_pep_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.longest.bed
+    longest_pep_fasta: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_glauca/C_glauca.longest.pep.fasta
+  C_limon:
+    CNS_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.CNSs.bed
+    GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.genome.fasta
+    bwFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.all.bw
+    gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.gff
+    longest_pep_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.longest.bed
+    longest_pep_fasta: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_limon/C_limon.longest.pep.fasta
+  C_sinensis:
+    CNS_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.CNSs.bed
+    GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.genome.fasta
+    bwFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.all.bw
+    gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.gff
+    longest_pep_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.longest.bed
+    longest_pep_fasta: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/C_sinensis/C_sinensis.longest.pep.fasta
+  F_hindsii:
+    CNS_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.CNSs.bed
+    GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.genome.fasta
+    bwFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.all.bw
+    gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.gff
+    longest_pep_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.longest.bed
+    longest_pep_fasta: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/F_hindsii/F_hindsii.longest.pep.fasta
+  ponkan:
+    CNS_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.CNSs.bed
+    GenomeFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.genome.fasta
+    bwFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.all.bw
+    gffFile: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.gff
+    longest_pep_bed: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.longest.bed
+    longest_pep_fasta: /home/ltan/Tmp/01-PanCNSGene_test_data/example_data/ponkan/ponkan.longest.pep.fasta
