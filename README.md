@@ -15,7 +15,7 @@
 ``` shell
 wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/mafFilter
 wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/mafSplit
-wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/wigTo
+wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/wigToBigWig
 ```
 
 5. [orthofinder](https://github.com/davidemms/OrthoFinder)
@@ -104,7 +104,7 @@ The Group column is the homology group identified by orthofinder.
 - UnMapOGXXXXXXX.1: UnMap prefix is the gene that orthofinder has no clustering
 
 ## quick start
-We provide example data for testing, which can be downloaded at [figshare](https://figshare.com/).
+We provide example data for testing, which can be downloaded at [figshare](https://doi.org/10.6084/m9.figshare.29662034.v1).
 
 ### cactus
 ``` shell
