@@ -18,14 +18,14 @@ with codecs.open(os.path.join(setup_dir, "README.md"), encoding="utf-8") as fh:
 
 # you need to change all these
 VERSION = find_version(os.path.join(setup_dir, "panCG", "lib", "info.py"))
-DESCRIPTION = 'xxx'
-LONG_DESCRIPTION = 'xxxxxx'
+DESCRIPTION = 'An integrative pipeline for family-level super-pangenome analysis across coding and noncoding sequences.'
+# LONG_DESCRIPTION = 'xxxxxx'
 
 setup(
     name="panCG",
     version=VERSION,
     author="ltan",
-    author_email="leitan1127@gmail.com",
+    author_email="lei.tan.bio@outlook.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
