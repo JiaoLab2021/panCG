@@ -34,14 +34,14 @@ wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/wigToBigWig
 
 7. [diamond](https://github.com/bbuchfink/diamond)
 
-## install
+## 📦 install
 Make sure the above dependencies are installed and added to PATH.
 ``` shell
 pip install panCG
 panCG -h
 ```
 
-## usage
+## 🔧 usage
 ``` shell
 usage: panCG [-h] [--version]  ...
 
@@ -69,7 +69,7 @@ Commands:
 2. In the gff annotation file, it is best to only have `gene, mRNA, exon, cds, and utr` information. And gene must contain the `ID` field, and others must contain the `Parent` field.
 3. The bed file of gene must be a standard 6-column bed file. `<chrID> <start> <end> <geneID> <score/0> <chain>`.
 
-## Output
+## 🔍 Output
 ### cns calling
 | Directory               | File suffix        | Describe                            |
 | ----------------------- | ------------------ | ----------------------------------- |
@@ -147,5 +147,5 @@ nohup /usr/bin/time -v panCG pancns \
     > pancns.log 2>&1 &
 ```
 
-## Citation
+## 📚 Citation
 
