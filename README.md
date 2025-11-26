@@ -47,7 +47,7 @@ Commands:
     CLSS         Identification of CNS lineage-specific Synteny networks
     CnsGeneLink  According to the relative position relationship between CNS and gene and the maximum number of species supported by CNS index and gene index, CNS index and gene index are linked.
     CnsSyntenyNet
-                 Used to construct SyntenyNet for filtered pan-CNS
+                 Used to construct SyntenyNet for filtered panCNS
 ```
 
 ## 📝 Input file format requirements
@@ -92,8 +92,8 @@ nohup /usr/bin/time -v cactus-hal2maf jobstore Citrus.7ways.test_data.hal C_sine
 for i in C_sinensis C_limon ponkan C_australasica C_glauca F_hindsii A_buxifolia
 do
     /usr/bin/time -v panCG callCns \
-        -c /home/ltan/Tmp/01-PanCNSGene_test_data/panCG/Example/CNScalling.config.yaml \
-        -w /home/ltan/Tmp/01-PanCNSGene_test_data/01-callcns/${i} \
+        -c /home/PanCNSGene_test_data/panCG/Example/CNScalling.config.yaml \
+        -w /home/PanCNSGene_test_data/01-callcns/${i} \
         -r ${i} > ${i}.callCns.log 2>&1
 done
 ```
@@ -101,20 +101,41 @@ done
 ### pangene
 ```shell
 nohup /usr/bin/time -v panCG pangene \
-    -c /home/ltan/Tmp/01-PanCNSGene_test_data/panCG/Example/panCG.config.yaml \
-    -w /home/ltan/Tmp/01-PanCNSGene_test_data/02-pangene \
+    -c /home/PanCNSGene_test_data/panCG/Example/panCG.config.yaml \
+    -w /home/PanCNSGene_test_data/02-pangene \
     -r C_sinensis > pangene.log 2>&1 &
 ```
 
 ### panCNS
 ```shell
 nohup /usr/bin/time -v panCG pancns \
-    -c /home/ltan/Tmp/01-PanCNSGene_test_data/panCG/Example/panCG.config.yaml \
-    -w /home/ltan/Tmp/01-PanCNSGene_test_data/03-pancns \
+    -c /home/PanCNSGene_test_data/panCG/Example/panCG.config.yaml \
+    -w /home/PanCNSGene_test_data/03-pancns \
     -r C_sinensis \
-    -W /home/ltan/Tmp/01-PanCNSGene_test_data/02-pangene \
+    -W /home/PanCNSGene_test_data/02-pangene \
     > pancns.log 2>&1 &
 ```
+
+### GLSS
+```shell
+/usr/bin/time -v panCG GLSS \
+    --config /home/Example/geneIndex.config.yaml \
+    --workDir /home/workDir \
+    --reference Citrus_sinensis \
+    --lineage_species_file Cultivated.species.list \
+    --output Cultivated-specific.tsv \
+    --threads 10
+```
+
+### CLSS
+```shell
+/usr/bin/time -v panCG CLSS \
+    --net_file /home/Synteny.CNS.graph.pkl \
+    --lineage_species_file Cultivated.species.list \
+    --output Cultivated.CLSS.out.txt \
+    --threads 10
+```
+
 
 ## 🔍 Output
 We have listed each intermediate file for explanation, see the [Markdown](Example/output.md) file.
