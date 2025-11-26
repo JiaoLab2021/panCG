@@ -138,7 +138,7 @@ nohup /usr/bin/time -v panCG pancns \
 
 
 ## 🔍 Output
-We have listed each intermediate file for explanation, see the [Markdown](Example/output.md) file.
+We have listed some important intermediate files and the final result file for explanation, see the [Markdown](Example/output.md) file.
 
 ## 📚 Citation
 
