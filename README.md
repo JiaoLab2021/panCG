@@ -83,38 +83,6 @@ For `panCG pangene` and `panCG pancns`, we provide a configuration file example 
 7. **longest_pep_bed**: The coordinate information of the representative transcripts in `gffFile`. The bed file of gene must be a standard 6-column bed file. `<chrID> <start> <end> <geneID> <score/0> <chain>`.
 8. **longest_pep_fasta**: Protein sequence of the representative transcripts corresponding to `longest_pep_bed`.
 
-
-## 🔍 Output
-### cns calling
-| Directory               | File suffix        | Describe                            |
-| ----------------------- | ------------------ | ----------------------------------- |
-| {Workdir}/03-phastCons/ | {species}.all.bw   | PhastCons Conservative Scoring File |
-| {Workdir}/03-phastCons/ | {species}.CNSs.bed | CNS file of {species}               |
-
-### panCNS
-| Directory             | File suffix        | Describe                                              |
-| --------------------- | ------------------ | ----------------------------------------------------- |
-| {Workdir}/Ref\_{ref}_ | .panGene.final.csv | The output panCNS file, each line represents an index |
-
-### pangene
-| Directory                     | File suffix  | Describe           |
-| ----------------------------- | ------------ | ------------------ |
-| {Workdir}/Ref\_{ref}_IndexDir | .panGene.csv | The result pangene |
-
-
-
-The Group column is the homology group identified by orthofinder. 
-
-| Group column        | Describe                                                     |
-| ------------------- | ------------------------------------------------------------ |
-| OGxxxxxxx.x         | Indicates the gene index subdivided in the homology group    |
-| OGxxxxxxx.x.Un      | The .Un suffix indicates a set of genes that still exist independently in a single species after CPM. |
-| OGxxxxxxx.x.tree_x  | Indicates the gene index subdivided by gene evolution relationship based on the gene index |
-| OGxxxxxxx.x.tree_Un | The gene set ending with .tree_Un is a gene set that is not classified using evolutionary relationships. |
-| UnMapOGXXXXXXX.x    | UnMap prefix is the gene that orthofinder has no clustering  |
-
-
-
 ## 🏁 quick start
 We provide example data for testing, which can be downloaded at [figshare](https://doi.org/10.6084/m9.figshare.29662034.v1).
 
@@ -161,6 +129,9 @@ nohup /usr/bin/time -v panCG pancns \
     -W /home/ltan/Tmp/01-PanCNSGene_test_data/02-pangene \
     > pancns.log 2>&1 &
 ```
+
+## 🔍 Output
+We have listed each intermediate file for explanation, see the [Markdown](Example/output.md) file.
 
 ## 📚 Citation
 
