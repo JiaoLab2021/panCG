@@ -73,7 +73,7 @@ For `panCG pangene` and `panCG pancns`, we provide a configuration file example 
 We provide example data for testing, which can be downloaded at [figshare](https://doi.org/10.6084/m9.figshare.29662034.v1).
 
 ### Progressive Cactus
-Progressive Cactus (Armstrong et al. 2020) for multi-genome reference-free alignment
+Progressive Cactus [(Armstrong et al. 2020)](https://www.nature.com/articles/s41586-020-2871-y) for multi-genome reference-free alignment
 ``` shell
 nohup /usr/bin/time -v cactus jobstore species.22way.info.txt Citrus.7ways.test_data.hal \
    --realTimeLogging True \
