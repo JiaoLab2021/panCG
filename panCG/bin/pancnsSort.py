@@ -68,7 +68,7 @@ def run_pancnsSort(logger, config, workDir, Reference):
         print(data)
         raise Exception("There are rows in the data frame that are not involved in sorting")
 
-    cnsIndexSort_file = os.path.join(RefIndexDir, "Ref.{}.sort.csv".format(Reference))
+    cnsIndexSort_file = os.path.join(RefIndexDir, "Ref.{}.pancns.sort.csv".format(Reference))
     result_data.to_csv(cnsIndexSort_file, sep='\t', index=False)
 
     logger.info("Finish sort PanCNS ...")
