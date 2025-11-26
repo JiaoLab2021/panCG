@@ -10,22 +10,16 @@
 ## 🔗 Dependencies
 
 1. `halLiftover` in [cactus](https://github.com/ComparativeGenomicsToolkit/cactus/blob/v2.9.3/BIN-INSTALL.md)
-
 2. [phast](https://github.com/CshlSiepelLab/phast)
-
 3. [JCVI](https://github.com/tanghaibao/jcvi)
-
 4. [UCSC](https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/): `mafFilter`, `mafSplit`, `wigToBigWig`
 ``` shell
 wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/mafFilter
 wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/mafSplit
 wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/wigToBigWig
 ```
-
 5. [orthofinder](https://github.com/davidemms/OrthoFinder)
-
 6. [blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/)
-
 7. [diamond](https://github.com/bbuchfink/diamond)
 
 ## 📦 install
