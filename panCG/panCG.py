@@ -68,7 +68,7 @@ class MyStart:
         handler = logging.StreamHandler()
         handler.setFormatter(formatter)
         logger.addHandler(handler)
-        logger.setLevel(20)
+        logger.setLevel(logging.INFO)
         return logger
 
     def set_help(self):

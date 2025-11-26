@@ -65,9 +65,24 @@ Commands:
 ```
 
 ## Input file format requirements
-1. The chromosome ID of the genome cannot contain special characters such as `":", "-", ","`, etc., and no other characters except numbers, letters and "_".
-2. In the gff annotation file, it is best to only have `gene, mRNA, exon, cds, and utr` information. And gene must contain the `ID` field, and others must contain the `Parent` field.
-3. The bed file of gene must be a standard 6-column bed file. `<chrID> <start> <end> <geneID> <score/0> <chain>`.
+For `panCG callCns`, we provide a configuration file example in [yaml](Example/callCns.config.yaml) format, which requires the following parameter:
+1. **GenomeFile**:  The genome file path. The chromosome ID of the genome cannot contain special characters such as `":", "-", ","`, etc., and no other characters except numbers, letters and "_".
+2. **gffFile**: The gene annotation file path. In the gff annotation file, it is best to only have `gene, mRNA, exon, cds, and utr` information. And gene must contain the `ID` field, and others must contain the `Parent` field. We recommend including all gene structures.
+3. **mafFile**: The Multiple sequence alignment file path. The path to the maf file output by `cactus-hal2maf`.
+4. **chrList**: Chromosome IDs used for constructing non-conserved models with `phyloFit` are separated by commas. We recommend retaining only chromosome IDs larger than 3Mb.
+5. **speciesList**: A list of all species in a phylogenetic tree, separated by commas; the order is irrelevant.
+6. **tree**: The topological structure of species evolutionary relationships.
+
+For `panCG pangene` and `panCG pancns`, we provide a configuration file example in [yaml](Example/panCG.config.yaml) format.
+1. **species_tree**: We recommend using phylogenetic trees with branch lengths, which reflect the evolutionary distance between species.
+2. **HalFile**: The path to the original HAL file output by `cactus`.
+3. **CNS_bed**: The output of `panCG callCns` is a CNS .bed file, which includes four columns: `<chrID> <start> <end> <cns_id>`. For example: `chr1	250383	250456	chr1:250383-250456`
+4. **GenomeFile**: The genome file path is the same as that in `panCG callCns`.
+5. **bwFile**: The conservative score of phastCons at single-base resolution output by `panCG callCns`.
+6. **gffFile**: The gene annotation file path. Each gene includes only its representative transcripts.
+7. **longest_pep_bed**: The coordinate information of the representative transcripts in `gffFile`. The bed file of gene must be a standard 6-column bed file. `<chrID> <start> <end> <geneID> <score/0> <chain>`.
+8. **longest_pep_fasta**: Protein sequence of the representative transcripts corresponding to `longest_pep_bed`.
+
 
 ## 🔍 Output
 ### cns calling
@@ -100,7 +115,7 @@ The Group column is the homology group identified by orthofinder.
 
 
 
-## quick start
+## 🏁 quick start
 We provide example data for testing, which can be downloaded at [figshare](https://doi.org/10.6084/m9.figshare.29662034.v1).
 
 ### cactus
