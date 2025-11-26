@@ -72,7 +72,8 @@ For `panCG pangene` and `panCG pancns`, we provide a configuration file example 
 ## 🏁 quick start
 We provide example data for testing, which can be downloaded at [figshare](https://doi.org/10.6084/m9.figshare.29662034.v1).
 
-### cactus
+### Progressive Cactus
+Progressive Cactus (Armstrong et al. 2020) for multi-genome reference-free alignment
 ``` shell
 nohup /usr/bin/time -v cactus jobstore species.22way.info.txt Citrus.7ways.test_data.hal \
    --realTimeLogging True \
@@ -88,6 +89,7 @@ nohup /usr/bin/time -v cactus-hal2maf jobstore Citrus.7ways.test_data.hal C_sine
 ```
 
 ### call CNS
+The phastCons pipeline identifies the initial CNS set.
 ```shell
 for i in C_sinensis C_limon ponkan C_australasica C_glauca F_hindsii A_buxifolia
 do
@@ -99,6 +101,7 @@ done
 ```
 
 ### pangene
+Construct a pangene and display it in tabular form. Columns represent each species, and rows represent a gene index.
 ```shell
 nohup /usr/bin/time -v panCG pangene \
     -c /home/PanCNSGene_test_data/panCG/Example/panCG.config.yaml \
@@ -107,6 +110,7 @@ nohup /usr/bin/time -v panCG pangene \
 ```
 
 ### panCNS
+Based on the initial CNS set, similarity evidence, multiple sequence alignment evidence, and synteny evidence are integrated to construct panCNS. This is also presented in tabular form. Columns represent species, and rows represent CNS indices.
 ```shell
 nohup /usr/bin/time -v panCG pancns \
     -c /home/PanCNSGene_test_data/panCG/Example/panCG.config.yaml \
@@ -117,6 +121,7 @@ nohup /usr/bin/time -v panCG pancns \
 ```
 
 ### GLSS
+Identification of gene lineage-specific synteny networks.
 ```shell
 /usr/bin/time -v panCG GLSS \
     --config /home/Example/geneIndex.config.yaml \
@@ -128,6 +133,7 @@ nohup /usr/bin/time -v panCG pancns \
 ```
 
 ### CLSS
+Identification of CNS lineage-specific synteny networks.
 ```shell
 /usr/bin/time -v panCG CLSS \
     --net_file /home/Synteny.CNS.graph.pkl \
