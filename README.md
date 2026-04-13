@@ -34,6 +34,7 @@ panCG -h
 ```
 
 ## 🔧 usage
+The Chinese tutorial documentation can be found in [Chinese Tutorial](https://github.com/JiaoLab2021/panCG/blob/main/Example/panCG使用教程.md).
 
 ```shell
 usage: panCG [-h] [--version]  ...
